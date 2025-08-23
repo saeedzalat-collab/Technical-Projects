@@ -8,7 +8,7 @@ This starter includes a REST API, JPA/H2 persistence, OpenAPI/Swagger docs, and 
 
 ---
 
-## ✨ Features (MVP)
+## Features (MVP)
 
 - Spring Boot 3.3 (Java 17+), Maven build
 - REST endpoints:
@@ -22,7 +22,7 @@ This starter includes a REST API, JPA/H2 persistence, OpenAPI/Swagger docs, and 
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - **Java 17**, **Spring Boot 3.3**
 - Spring Web, Spring Data JPA, Spring Validation
@@ -32,7 +32,7 @@ This starter includes a REST API, JPA/H2 persistence, OpenAPI/Swagger docs, and 
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 leave-management-service/
@@ -57,7 +57,7 @@ leave-management-service/
 
 ---
 
-## ▶️ Run
+##  Run
 
 ```bash
 # From the project root:
@@ -74,7 +74,7 @@ mvn spring-boot:run
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 `src/main/resources/application.yml` (excerpt):
 
@@ -100,7 +100,7 @@ spring:
 
 ---
 
-## 🔐 Security
+##  Security
 
 `SecurityConfig` permits all requests (no auth) to simplify demos and Postman tests:
 
@@ -113,7 +113,7 @@ http.csrf(csrf -> csrf.disable())
 
 ---
 
-## 📦 Domain (MVP)
+##  Domain (MVP)
 
 The scaffolded `LeaveRequest` entity (simple fields to keep the starter minimal):
 
@@ -134,7 +134,7 @@ public class LeaveRequest {
 
 ---
 
-## 🔌 REST API
+##  REST API
 
 ### Create Leave (scaffold)
 `POST /api/leaverequests`
@@ -223,7 +223,7 @@ curl http://localhost:8082/api/leaverequests
 
 ---
 
-## 🧪 Quick Postman Collection (minimal)
+##  Quick Postman Collection (minimal)
 
 Save the JSON below as `Leave-Management.postman_collection.json` and import into Postman:
 
@@ -260,7 +260,7 @@ Save the JSON below as `Leave-Management.postman_collection.json` and import int
 
 ---
 
-## 🚀 Enhancements (turn it into a real Leave system)
+##  Enhancements (turn it into a real Leave system)
 
 Use this checklist to evolve the scaffold into a production-style service:
 
@@ -310,7 +310,7 @@ Use this checklist to evolve the scaffold into a production-style service:
 
 ---
 
-## 🧩 Troubleshooting
+##  Troubleshooting
 
 - **Port already in use**: change `server.port` in `application.yml` or free the port.
 - **Swagger UI not loading**: ensure the app starts cleanly; hit `/v3/api-docs` to confirm OpenAPI is served.
@@ -318,13 +318,13 @@ Use this checklist to evolve the scaffold into a production-style service:
 
 ---
 
-## 🧹 Housekeeping
+##  Housekeeping
 
 - `.gitignore` should exclude `target/`, IDE files, and logs.
 - No secrets in the repo. If you add external DBs, keep creds in env vars or a `.env` (not committed).
 
 ---
 
-## 📄 License
+##  License
 
 This sample is intended for educational/portfolio use. You can adapt and reuse it in your personal projects.
