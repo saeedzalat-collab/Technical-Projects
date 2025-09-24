@@ -1,6 +1,6 @@
 # Invoice Management Service
 
-A clean, runnable Spring Boot microservice that demonstrates a basic **Invoice Management** domain.  
+A clean, runnable Spring Boot App that demonstrates a basic **Invoice Management** domain.  
 This starter includes a REST API, JPA/H2 persistence, OpenAPI/Swagger docs, and a simple (permit-all) security config to keep demos frictionless.
 
 > Current scope (MVP): generic CRUD-like endpoints using `Invoice`, `InvoiceLine`, and `Provider` entity scaffolds.  
