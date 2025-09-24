@@ -1,0 +1,29 @@
+cat > .gitignore <<'EOF'
+# macOS
+.DS_Store
+
+# Eclipse
+.metadata/
+.project
+.classpath
+.settings/
+.recommenders/
+
+# IntelliJ/IDEA
+.idea/
+*.iml
+out/
+
+# Maven/Gradle
+target/
+build/
+.gradle/
+.mvn/wrapper/
+
+# Logs
+*.log
+
+# Others
+*.swp
+*.tmp
+EOF
