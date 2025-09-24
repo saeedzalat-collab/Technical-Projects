@@ -1,6 +1,6 @@
 # Bug Tracker
 
-A clean, runnable Spring Boot service for tracking **projects**, **issues**, and **comments** with **role-based workflows**.  
+A Case Study + Demo Spring Boot service for tracking **projects**, **issues**, and **comments** with **role-based workflows**.  
 Ships with REST APIs, **pagination & filtering**, **Swagger/OpenAPI**, and **H2** for zero-setup dev (MySQL-ready for prod).
 
 > Outcome: structured workflows + Swagger + filters → boosted developer efficiency by **~30%** (faster triage & navigation).
