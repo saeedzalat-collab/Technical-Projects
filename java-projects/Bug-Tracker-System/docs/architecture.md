@@ -16,7 +16,7 @@ flowchart LR
   FE --> API["Spring Boot API<br/>Controllers • Services • Repositories"]
   API --> DB[(H2 - dev<br/>MySQL - prod)]
   API --> SEC[JWT / RBAC (optional)]
-  API -.-> OBS[Logging & Tracing]
+  API --> OBS[Logging & Tracing]
 ```
 **Notes**
 - HTTPS/JSON; stateless API
